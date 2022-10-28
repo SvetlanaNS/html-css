@@ -1,0 +1,160 @@
+element.style:root {
+    --comments-sidebar-bg: #fff;
+    --comments-sidebar-bg-hover: rgba(0,0,0,0.06);
+    --comments-sidebar-bg-selected: #daebf7;
+    --comments-sidebar-border-color: rgba(0,0,0,0.1);
+    --comments-sidebar-border-hov: #f0f0f0;
+    --comments-sidebar-border-sel: #daebf7;
+    --comments-sidebar-text-color: #000;
+    --comments-sidebar-text-color2: #b3b3b3;
+    --comments-sidebar-text-color3: #333;
+    --comments-sidebar-button-fill1: #b3b3b3;
+    --comments-sidebar-button-fill2: #333;
+    --comments-sidebar-button-bg: rgba(0,0,0,0.06);
+    --comments-sidebar-button-bg-hov: rgba(0,0,0,0.06);
+}
+:root {
+    --scale: 1;
+}
+:root {
+    --expandAnimationTime: 100ms;
+}
+:root {
+    --wiggle-delta-x: -24px;
+    --wiggle-delta-x-inverse: calc(var(--wiggle-delta-x)*-1);
+    --wiggle-rotation: -1deg;
+    --wiggle-rotation-inverse: calc(var(--wiggle-rotation)*-1);
+}
+:root, [data-theme=design]:not([data-debug-theme=debug]) {
+    --bg-primary-btn: #18a0fb;
+    --bg-toolbar: #2c2c2c;
+    --bg-toolbar-hover: #000;
+    --bg-toolbar-active: #18a0fb;
+    --bg-toolbar-selection: #18a0fb;
+    --fg-toolbar: hsla(0,0%,100%,0.8);
+    --fg-toolbar-hover: #fff;
+    --fg-toolbar-active: #fff;
+    --fg-toolbar-disabled: hsla(0,0%,100%,0.5);
+    --fg-toolbar-filename: #fff;
+    --fg-toolbar-foldername: #aaa;
+    --fg-toolbar-chevron: #fff;
+    --fg-toolbar-unsavedicon: hsla(0,0%,100%,0.4);
+    --fg-toolbar-login-button: #fff;
+    --fg-toolbar-login-button-border: hsla(0,0%,100%,0.8);
+    --fg-toolbar-login-button-active: hsla(0,0%,100%,0.4);
+    --fg-toolbar-community-icon: hsla(0,0%,100%,0.4);
+    --fg-toolbar-community-icon-active: hsla(0,0%,100%,0.8);
+    --fg-toolbar-placeholder: hsla(0,0%,100%,0.4);
+    --toolbar-height: 48px;
+    --toolbar-unread-dot-top: 8px;
+    --fg-badge: hsla(0,0%,100%,0.8);
+    --bg-badge: hsla(0,0%,100%,0.2);
+    --fg-keyboard-shortcuts: #aaa;
+    --bg-keyboard-shortcuts: #2c2c2c;
+    --fg-keyboard-shortcuts-tab: #aaa;
+    --fg-keyboard-shortcuts-tab-hover: #d4d4d4;
+    --fg-keyboard-shortcuts-divider: transparent;
+    --fg-keyboard-shortcuts-tab-border: #444;
+    --bg-overlay: #222;
+    --bg-overlay-active: #18a0fb;
+    --bg-overlay-outline: rgba(0,0,0,0.1);
+    --bg-overlay-inner-outline: #000;
+    --fg-overlay: #fff;
+    --fg-overlay-active: #fff;
+    --fg-overlay-secondary: hsla(0,0%,100%,0.4);
+    --fg-overlay-sep: hsla(0,0%,100%,0.2);
+    --fg-overlay-tenth: hsla(0,0%,100%,0.1);
+    --fg-overlay-right-arrow: #fff;
+    --fg-overlay-right: #fff;
+    --fg-focus: #18a0fb;
+    --fg-select-chevron: #b3b3b3;
+    --fg-select-chevron-hover: #333;
+    --fg-select-option-disabled: hsla(0,0%,100%,0.4);
+    --fg-overlay-hyperlink: #fff;
+    --bg-progress-bar: #18a0fb;
+    --bg-slider-track: #050505;
+    --fg-slider-thumb: #050505;
+    --bg-jam-menu: #222;
+    --fg-jam-menu: hsla(0,0%,100%,0.8);
+Show All Properties (30 more)
+}
+:root, [data-debug-theme=debug] {
+    --bg-primary-btn: #28be5b;
+    --bg-toolbar: #8571e6;
+    --bg-toolbar-hover: #faf95a;
+    --bg-toolbar-active: #a314f9;
+    --bg-toolbar-selection: #f170ea;
+    --fg-toolbar: #54359c;
+    --fg-toolbar-hover: #a8c0fc;
+    --fg-toolbar-active: #c75735;
+    --fg-toolbar-disabled: #4db383;
+    --fg-toolbar-filename: #ed90ad;
+    --fg-toolbar-foldername: #824282;
+    --fg-toolbar-chevron: #6e2b84;
+    --fg-toolbar-unsavedicon: #024d68;
+    --fg-toolbar-login-button: #6003e0;
+    --fg-toolbar-login-button-border: #92b81f;
+    --fg-toolbar-login-button-active: #72219b;
+    --fg-toolbar-community-icon: #5deced;
+    --fg-toolbar-community-icon-active: #11943e;
+    --fg-toolbar-placeholder: #06c082;
+    --toolbar-height: 48px;
+    --toolbar-unread-dot-top: 8px;
+    --fg-badge: #d66ada;
+    --bg-badge: #d08db4;
+    --fg-keyboard-shortcuts: #38e682;
+    --bg-keyboard-shortcuts: #6aed05;
+    --fg-keyboard-shortcuts-tab: #0099cd;
+    --fg-keyboard-shortcuts-tab-hover: #12b2c2;
+    --fg-keyboard-shortcuts-divider: #22ab46;
+    --fg-keyboard-shortcuts-tab-border: #952039;
+    --bg-overlay: #ca01f3;
+    --bg-overlay-active: #c93fbd;
+    --bg-overlay-outline: #a26676;
+    --bg-overlay-inner-outline: #964c97;
+    --fg-overlay: #adf472;
+    --fg-overlay-active: #1b85dc;
+    --fg-overlay-secondary: #8bf1e9;
+    --fg-overlay-sep: #bc2872;
+    --fg-overlay-tenth: #d7d20b;
+    --fg-overlay-right-arrow: #65232a;
+    --fg-overlay-right: #55d1ac;
+    --fg-focus: #e3bc6f;
+    --fg-select-chevron: #6cd8e3;
+    --fg-select-chevron-hover: #50d971;
+    --fg-select-option-disabled: #0f7f6a;
+    --fg-overlay-hyperlink: #86efaa;
+    --bg-progress-bar: #bad11f;
+    --bg-slider-track: #fab258;
+    --fg-slider-thumb: #9ba2dd;
+    --bg-jam-menu: #a5ef8b;
+    --fg-jam-menu: #4e27be;
+Show All Properties (30 more)
+}
+:root {
+    --editor-banner-height: 0px;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: inherit;
+    outline: none;
+    letter-spacing: inherit;
+    text-decoration: none;
+    cursor: inherit;
+}
+html {
+    vertical-align: baseline;
+    cursor: default;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: hsla(0,0%,100%,.4);
+    box-shadow: 0 0 1px rgb(0 0 0 / 40%);
+}
